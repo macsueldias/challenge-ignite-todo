@@ -1,0 +1,9 @@
+.containerHeader {
+    display: flex;
+    position: relative;
+    background: var(--gray-700);
+}
+
+.logoHeader {
+    margin: 4.5rem auto 5rem;
+}

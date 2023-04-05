@@ -1,0 +1,45 @@
+.containerForm {
+    position: relative;
+    display: flex;
+    top: -30px;
+}
+
+.formTask {
+    margin: auto;
+    height: 3.5rem;
+    width: 46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.campTask {
+    width: 40rem;
+    padding: 1rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+}
+
+.buttonAdd {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    padding: 1rem;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: .875rem;
+
+    color: var(--gray-100);
+    background: var(--blue);
+}
