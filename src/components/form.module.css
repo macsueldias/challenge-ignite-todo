@@ -42,3 +42,14 @@
     color: var(--gray-100);
     background: var(--blue);
 }
+
+
+@media (max-width: 768px) {
+    .formTask {
+        width: 90%;
+    }
+
+    .buttonAdd span {
+        display: none;
+    }
+}

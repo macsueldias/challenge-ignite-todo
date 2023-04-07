@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import { TaskProvider } from './hooks/task'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <TaskProvider>
+      <App />
+    </TaskProvider>
   </React.StrictMode>,
 )
